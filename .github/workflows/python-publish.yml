@@ -43,8 +43,7 @@ jobs:
         sudo pip install pyvirtualdisplay;
         python -m pip install --upgrade pip
         pip install setuptools wheel twine
-        pip install selenium
-        pip install webdriver-manager
+        pip install selenium==3.3.1
         whereis  chromedriver
         cd /home/runner/work/Neworld_SignIn/Neworld_SignIn/driver
         sudo chmod 777 chromedriver
