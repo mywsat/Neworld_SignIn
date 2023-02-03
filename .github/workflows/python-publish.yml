@@ -44,6 +44,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install setuptools wheel twine
         pip install selenium
+        pip install webdriver-manager
         whereis  chromedriver
         cd /home/runner/work/Neworld_SignIn/Neworld_SignIn/driver
         sudo chmod 777 chromedriver
