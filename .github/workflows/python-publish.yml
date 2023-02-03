@@ -46,7 +46,7 @@ jobs:
         pip install selenium
         whereis  chromedriver
         cd /home/runner/work/Neworld_SignIn/Neworld_SignIn/driver
-        sudo chmod +x chromedriver
+        sudo chmod 777 chromedriver
     - name: Build and publish
       env:
          USERNAME: ${{ secrets.USERNAME }}
