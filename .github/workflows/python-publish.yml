@@ -46,7 +46,7 @@ jobs:
         pip install selenium==3.3.1
         whereis  chromedriver
         cd /home/runner/work/Neworld_SignIn/Neworld_SignIn/driver
-        sudo chmod 777 chromedriver
+        sudo chmod 777 /home/runner/work/Neworld_SignIn/Neworld_SignIn/driver/chromedriver
         cd /home/runner/work/Neworld_SignIn/Neworld_SignIn
         sudo chmod 777 hellp.py
     - name: Build and publish
