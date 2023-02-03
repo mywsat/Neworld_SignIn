@@ -51,6 +51,7 @@ jobs:
         sudo chmod 777 hellp.py
     - name: Build and publish
       env:
+         webdriver.chrome.driver: home/runner/work/Neworld_SignIn/Neworld_SignIn/driver/chromedriver
          USERNAME: ${{ secrets.USERNAME }}
          PASSWORD: ${{ secrets.PASSWORD }}
       run: |
