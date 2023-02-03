@@ -39,7 +39,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y google-chrome-stable=96.0.4664.45 amd64
+        sudo apt-get install -y google-chrome-stable='96.0.4664.45 amd64'
         sudo pip install pyvirtualdisplay;
         python -m pip install --upgrade pip
         pip install setuptools wheel twine
