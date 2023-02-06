@@ -46,7 +46,7 @@ jobs:
         whereis  chromedriver
         cd /home/runner/work/Neworld_SignIn/Neworld_SignIn/driver
         sudo chmod 777 google-chrome-stable_current_amd64.deb
-        sudo apt install  -y ./google-chrome-stable_current_amd64.deb
+        sudo apt install  ./google-chrome-stable_current_amd64.deb
         sudo chmod 777 /home/runner/work/Neworld_SignIn/Neworld_SignIn/driver/chromedriver
         cd /home/runner/work/Neworld_SignIn/Neworld_SignIn
         sudo chmod 777 hellp.py
